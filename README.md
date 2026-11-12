@@ -1,21 +1,19 @@
-# PhonePe Transaction Analytics Dashboard
-
-An interactive **Power BI dashboard** developed to analyze PhonePe transaction trends, geographical distribution, user activity, and transaction performance across India from **2018 to 2022**.
+# PhonePe Transaction Analytics – Power BI Project
 
 ## Project Overview
 
-This project uses PhonePe Pulse data to explore digital payment patterns and present meaningful insights through interactive visualizations, KPIs, geographical mapping, and filters.
+This project focuses on analysing PhonePe digital payment transactions and user engagement across India using Microsoft Power BI.
 
-## Dashboard Features
+The objective is to transform PhonePe Pulse data into an interactive business intelligence solution that helps identify transaction trends, regional performance, user growth and business opportunities.
 
-- **KPI Cards:** Total Transactions, Total States, Total Users, Total Transaction Amount, and Average Transaction Value.
-- **Geographical Analysis:** India map showing state-wise transaction amounts.
-- **Quarterly Trends:** Transaction volume analysis by quarter and year.
-- **Transaction Type Analysis:** Distribution across transaction categories.
-- **Top 10 Analysis:** Leading states and districts by transaction volume, transaction amount, and registered users.
-- **Yearly Trends:** Transaction amount and transaction volume from 2018 to 2022.
-- **Interactive Filters:** Year, Quarter, State, District, Transaction Type, and Brand.
-- **Growth Analysis:** Year-over-year transaction growth KPI.
+## Project Objectives
+
+- Analyse transaction volume and transaction value across India.
+- Understand state-wise and district-wise performance.
+- Study registered user growth and engagement.
+- Identify quarterly and yearly transaction trends.
+- Calculate Year-over-Year (YoY) growth and Compound Annual Growth Rate (CAGR).
+- Develop interactive geographical visualizations and business insights.
 
 ## Tools and Technologies
 
@@ -23,47 +21,134 @@ This project uses PhonePe Pulse data to explore digital payment patterns and pre
 - Power Query
 - DAX (Data Analysis Expressions)
 - PhonePe Pulse Dataset
-- Data Visualization and Analytics
+- GitHub
+
+## Data Analysis and Modelling
+
+The project uses PhonePe Pulse transaction and user datasets, covering the period 2018–2022.
+
+The analysis includes:
+- Transaction data aggregation
+- User registration analysis
+- State and district-level analysis
+- Year and quarter-based analysis
+- KPI calculations using DAX
+- Data modelling with dimension tables and relationships
+
+## Dashboard Pages
+
+### 1. PhonePe Transaction Overview
+
+Provides an overview of transaction performance across India.
+
+Features:
+- Total transactions
+- Total states
+- Total users
+- Total transaction amount
+- Average transaction value
+- India geographical map
+- State-wise transaction volume and amount
+- Quarterly transaction trends
+- Transaction type distribution
+
+![Transaction Overview](screenshots/01_Transaction_Overview.png)
+
+### 2. User Analytics
+
+Provides insights into registered users and regional user engagement.
+
+Features:
+- Total registered users
+- Average users per state
+- Yearly user registration trends
+- Quarterly user registration trends
+- State-wise registered users
+- Registered user distribution by state
+
+![User Analytics](screenshots/02_User_Analytics.png)
+
+### 3. Transaction Insights
+
+Focuses on deeper transaction analysis and growth performance.
+
+Features:
+- Top districts by registered users
+- Top districts by transaction amount
+- Yearly transaction amount trends
+- Yearly transaction volume trends
+- Year-over-Year growth analysis
+- Compound Annual Growth Rate (CAGR)
+
+![Transaction Insights](screenshots/03_Transaction_Insights.png)
+
+### 4. Executive Insights
+
+Summarises important business findings and recommendations.
+
+Features:
+- District performance analysis
+- Transaction value leadership
+- User engagement observations
+- Growth performance
+- Strategic business recommendations
+
+![Executive Insights](screenshots/04_Executive_Insights.png)
+
+## Interactive Features
+
+- 10 dropdown filters across transaction and user analytics.
+- State-wise and district-wise filtering.
+- Year and quarter selection.
+- Transaction type and brand filtering.
+- Interactive geographical map.
+- State-to-district map drill-down.
+- Cross-filtering between relevant visuals.
 
 ## Key Performance Indicators
 
-The dashboard tracks:
+The dashboard includes:
 
-1. Total transaction volume
-2. Total transaction amount
-3. Total registered users
-4. Average transaction value
-5. Number of states covered
-6. Year-over-year transaction growth
+- Total Transaction Volume
+- Total Transaction Amount
+- Total Registered Users
+- Average Transaction Value
+- Average Users per State
+- Year-over-Year Transaction Growth
+- Transaction CAGR (2018–2022)
 
-## Key Analysis Areas
+### Growth Analysis
 
-- Transaction trends across years and quarters.
-- State-wise and district-wise payment performance.
-- Distribution of transaction categories.
-- Geographical patterns across India.
-- Registered user distribution.
-- Changes in transaction activity over time.
+| Metric | Result |
+|---|---:|
+| 2021 YoY Transaction Growth | 141.78% |
+| 2022 YoY Transaction Growth | 103.76% |
+| Transaction CAGR (2018–2022) | 145.60% |
 
-## Repository Contents
+## Business Insights
 
-| File | Description |
-|---|---|
-| `PhonePe_Data_Analytics.pbix` | Power BI dashboard project |
+The analysis highlights regional differences in transaction activity and user engagement.
 
-## How to Use
+- Bengaluru Urban, Hyderabad and Pune feature prominently in transaction performance.
+- Regional user distribution provides opportunities to identify areas for improved digital payment adoption.
+- Yearly and quarterly analysis helps understand changes in transaction activity.
+- Growth indicators provide a view of short-term and long-term transaction performance.
 
-1. Download the `.pbix` file from this repository.
-2. Open it using Microsoft Power BI Desktop.
-3. Use the Year, Quarter, State, District, Transaction Type, and Brand filters.
-4. Explore the KPIs, map, and charts to analyze transaction patterns.
+## Project Deliverables
 
-## Project Objective
+- `PhonePe_Data_Analytics.pbix` – Power BI project file.
+- `screenshots/` – Screenshots of all four dashboard pages.
+- `README.md` – Project documentation.
 
-To transform PhonePe Pulse data into an interactive analytical dashboard that helps understand digital payment trends, geographical performance, user activity, and transaction growth across India.
+## Conclusion
+
+This project demonstrates how data analytics and business intelligence can transform digital payment data into meaningful insights.
+
+The interactive Power BI dashboard provides geographical analysis, user engagement insights, transaction performance monitoring and growth analysis to support data-driven business decisions.
 
 ---
 
 **Project:** PhonePe Transaction Analytics  
 **Platform:** Microsoft Power BI  
-**Analysis Period:** 2018–2022
+**Data Period:** 2018–2022  
+**Project Repository:** [GitHub – PhonePe Transaction Analytics](https://github.com/kafeelrafiq-afk/PhonePe-Transaction-Analytics)
